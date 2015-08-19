@@ -1,0 +1,23 @@
+cd .emacs.d/
+ls
+cd site-lisp/
+ls
+cd .emacs.d/site-lisp/
+ls
+cd ..
+ls
+git init
+cd site-lisp/
+ls
+git submodule add git@github.com:magnars/dash.el.git
+git submodule add git@github.com:magnars/dash.el.git dash
+ls
+rm -rf dash.el/
+ls
+git status
+ls
+cd ..
+ls
+cd ../
+cd site-lisp/
+git submodule add git@github.com:DarwinAwardWinner/ido-ubiquitous.git

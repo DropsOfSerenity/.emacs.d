@@ -1,0 +1,9 @@
+[submodule "site-lisp/dash.el"]
+	path = site-lisp/dash.el
+	url = git@github.com:magnars/dash.el.git
+[submodule "site-lisp/dash"]
+	path = site-lisp/dash
+	url = git@github.com:magnars/dash.el.git
+[submodule "site-lisp/ido-ubiquitous"]
+	path = site-lisp/ido-ubiquitous
+	url = git@github.com:DarwinAwardWinner/ido-ubiquitous.git

@@ -1,0 +1,37 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/jschiff/.emacs.d/" . "site-lisp/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/jschiff/.emacs.d/settings/"
+ "/home/jschiff/.emacs.d/site-lisp/"
+ "/home/jschiff/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "setup-ido.el"
+ "sane-defaults.el"
+ "undo-tree.el"
+ "smooth-scrolling.el"
+ "init.el"
+ "diminish.el"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/jschiff/.emacs.d/settings/" (21971 53388 725040 167000) "../" "setup-package.el" "setup-ido.el" "./" "sane-defaults.el" "appearance.el")
+
+ ("/home/jschiff/.emacs.d/site-lisp/" (21971 52986 159096 547000) "../" "smooth-scrolling.el" "dash/" "diminish.el" "./" "undo-tree.el")
+
+ ("/home/jschiff/.emacs.d/" (21971 53203 329097 500000) ".git/" "site-lisp/" "../" "eshell/" "elpa/" "themes/" "custom.el" "backups/" ".gitmodules" "ido.last" "history" "./" "init.el" "places" "settings/" "auto-save-list/")
+
+ ("/home/jschiff/" (21971 50795 985093 923000) ".psqlrc" ".gemrc" ".tmux.conf.local" ".compiz/" ".gitconfig.local" ".Xauthority" ".pki/" ".adobe/" ".vimrc" ".aliases" ".emacs.d/" ".zshenv" ".weechat/" ".fonts/" "Desktop/" ".ICEauthority" ".gnupg/" "../" ".mpd/" ".gconf/" ".git_template/" "Templates/" ".lastpass/" "Videos/" ".virtualenvs/" ".xsession-errors" "dotfiles/" ".zshrc" ".cache/" ".RubyMine70/" "Downloads/" ".hushlogin" "src/" ".gnome2_private/" ".vimrc.local" ".mozilla/" "Public/" ".gnome2/" ".profile" ".tmux.conf" ".viminfo" ".xinitrc" ".dmrc" ".rbenv/" ".vimrc.bundles" ".zsh/" ".gnome/" ".Skype/" "Audiobooks/" ".vimrc.bundles.local" ".gitconfig" ".gvimrc.local" "./" ".xsession-errors.old" ".zcompdump" ".rcrc" "Podcasts/" ".gitmessage" ".agignore" ".psqlrc.local" ".npm/" ".local/" ".v8flags.3.28.71.19.jschiff.json" ".macromedia/" ".zhistory" ".gitignore" ".zshrc.local" ".sudo_as_admin_successful" "dotfiles-local/" ".bash_history" ".bashrc" ".icons/" "Music/" ".ncmpcpp/" "Documents/" ".config/" "Sync/" ".npm-upgrade.sh" ".bash_logout" "Pictures/" ".ssh/" ".WebStorm10/" ".Xresources" ".bin/" ".vim/" ".rspec" ".gem/" ".gvimrc")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
