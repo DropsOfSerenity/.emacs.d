@@ -2,35 +2,78 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/jschiff/.emacs.d/" . "site-lisp/")
+ ("/home/jschiff/" . ".emacs.d/")
+ ("/home/jschiff/src/node/coinwise/" . "app/")
+ ("/home/jschiff/src/" . "node/")
+ ("/home/jschiff/src/node/" . "coinwise/")
+ ("/home/jschiff/.emacs.d/site-lisp/" . "js2-refactor/")
+ ("/home/jschiff/.emacs.d/" . "settings/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
  "/home/jschiff/.emacs.d/settings/"
- "/home/jschiff/.emacs.d/site-lisp/"
+ "/home/jschiff/.emacs.d/themes/"
  "/home/jschiff/.emacs.d/"
+ "/home/jschiff/"
+ "/home/jschiff/src/node/coinwise/app/"
+ "/home/jschiff/.emacs.d/defuns/"
+ "/home/jschiff/.emacs.d/site-lisp/js2-refactor/"
+ "/home/jschiff/.emacs.d/site-lisp/find-file-in-project/"
+ "/home/jschiff/.emacs.d/snippets/js-mode/"
+ "/home/jschiff/.emacs.d/snippets/js2-mode/"
+ "/home/jschiff/.emacs.d/site-lisp/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "setup-ido.el"
- "sane-defaults.el"
- "undo-tree.el"
- "smooth-scrolling.el"
+ "appearance.el"
+ "monokai.el"
  "init.el"
- "diminish.el"
+ "setup-perspective.el"
+ "key-bindings.el"
+ "setup-clojure-mode.el"
+ "test.clj"
+ "setup-markdown-mode.el"
+ "setup-ruby-mode.el"
+ "default-black.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/jschiff/.emacs.d/settings/" (21971 53388 725040 167000) "../" "setup-package.el" "setup-ido.el" "./" "sane-defaults.el" "appearance.el")
+ ("/home/jschiff/" (21972 3766 999871 326000) ".psqlrc" ".gemrc" ".tmux.conf.local" ".compiz/" ".gitconfig.local" ".Xauthority" ".pki/" ".adobe/" ".vimrc" ".aliases" ".emacs.d/" ".zshenv" ".weechat/" ".fonts/" "Desktop/" ".ICEauthority" "projects/" ".gnupg/" "../" ".mpd/" ".gconf/" ".git_template/" "Templates/" ".lastpass/" "Videos/" ".virtualenvs/" ".xsession-errors" "dotfiles/" ".zshrc" ".cache/" ".RubyMine70/" "Downloads/" ".hushlogin" "src/" ".gnome2_private/" ".vimrc.local" ".mozilla/" "Public/" ".gnome2/" ".profile" ".tmux.conf" ".viminfo" ".xinitrc" ".dmrc" ".rbenv/" ".vimrc.bundles" ".zsh/" ".gnome/" ".Skype/" ".smex-items" "Audiobooks/" ".vimrc.bundles.local" ".gitconfig" ".gvimrc.local" "./" ".xsession-errors.old" ".zcompdump" ".rcrc" "Podcasts/" ".gitmessage" ".agignore" ".psqlrc.local" ".npm/" ".local/" ".v8flags.3.28.71.19.jschiff.json" ".macromedia/" ".zhistory" ".gitignore" ".zshrc.local" ".sudo_as_admin_successful" "dotfiles-local/" ".bash_history" ".bashrc" ".icons/" "Music/" ".ncmpcpp/" "Documents/" ".config/" "Sync/" ".npm-upgrade.sh" ".bash_logout" "Pictures/" ".ssh/" ".WebStorm10/" ".Xresources" ".bin/" ".vim/" ".rspec" ".gem/" ".gvimrc")
 
- ("/home/jschiff/.emacs.d/site-lisp/" (21971 52986 159096 547000) "../" "smooth-scrolling.el" "dash/" "diminish.el" "./" "undo-tree.el")
+ ("/home/jschiff/.emacs.d/settings/" (21972 3634 856086 687000) "setup-ruby-mode.el" "../" "setup-html-mode.el" "setup-package.el" "setup-ido.el" "setup-perspective.el" "setup-clojure-mode.el" "mode-mappings.el" "setup-flycheck.el" "setup-hippie.el" "setup-magit.el" "./" "key-bindings.el" "setup-ffip.el" "setup-markdown-mode.el" "setup-js2-mode.el" "sane-defaults.el" "setup-paredit.el" "appearance.el" "setup-yasnippet.el")
 
- ("/home/jschiff/.emacs.d/" (21971 53203 329097 500000) ".git/" "site-lisp/" "../" "eshell/" "elpa/" "themes/" "custom.el" "backups/" ".gitmodules" "ido.last" "history" "./" "init.el" "places" "settings/" "auto-save-list/")
+ ("/home/jschiff/.emacs.d/themes/" (21972 3461 732611 495000) "../" "monokai.el" "./" "default-black.el")
 
- ("/home/jschiff/" (21971 50795 985093 923000) ".psqlrc" ".gemrc" ".tmux.conf.local" ".compiz/" ".gitconfig.local" ".Xauthority" ".pki/" ".adobe/" ".vimrc" ".aliases" ".emacs.d/" ".zshenv" ".weechat/" ".fonts/" "Desktop/" ".ICEauthority" ".gnupg/" "../" ".mpd/" ".gconf/" ".git_template/" "Templates/" ".lastpass/" "Videos/" ".virtualenvs/" ".xsession-errors" "dotfiles/" ".zshrc" ".cache/" ".RubyMine70/" "Downloads/" ".hushlogin" "src/" ".gnome2_private/" ".vimrc.local" ".mozilla/" "Public/" ".gnome2/" ".profile" ".tmux.conf" ".viminfo" ".xinitrc" ".dmrc" ".rbenv/" ".vimrc.bundles" ".zsh/" ".gnome/" ".Skype/" "Audiobooks/" ".vimrc.bundles.local" ".gitconfig" ".gvimrc.local" "./" ".xsession-errors.old" ".zcompdump" ".rcrc" "Podcasts/" ".gitmessage" ".agignore" ".psqlrc.local" ".npm/" ".local/" ".v8flags.3.28.71.19.jschiff.json" ".macromedia/" ".zhistory" ".gitignore" ".zshrc.local" ".sudo_as_admin_successful" "dotfiles-local/" ".bash_history" ".bashrc" ".icons/" "Music/" ".ncmpcpp/" "Documents/" ".config/" "Sync/" ".npm-upgrade.sh" ".bash_logout" "Pictures/" ".ssh/" ".WebStorm10/" ".Xresources" ".bin/" ".vim/" ".rspec" ".gem/" ".gvimrc")
+ ("/home/jschiff/.emacs.d/" (21972 3641 424072 634000) ".git/" "site-lisp/" "../" "defuns/" "eshell/" "elpa/" "themes/" "custom.el" "backups/" ".gitmodules" "ido.last" "history" "./" "init.el" ".gitignore" "places" "settings/" "auto-save-list/" "recentf" "snippets/")
+
+ ("/home/jschiff/.emacs.d/defuns/" (21971 59121 501517 993000) "../" "editing-defuns.el" "js2r-defuns.el" "buffer-defuns.el" "./" "snippet-helpers.el")
+
+ ("/home/jschiff/src/node/coinwise/app/" (21971 60259 30701 777000) "bin/" "views/" "services/" "Dockerfile" "../" "middleware/" "node_modules/" "coinwise-worker.conf" "nightwatch.json" "models/" "migrations/" "config/" "public/" "app.js" "./" "test/" "coinwise.conf" "gulpfile.js" "worker.js" "package.json" "tasks/" "routes/")
+
+ ("/home/jschiff/src/node/coinwise/app/test/" (21970 24995 876077 781000) "../" "utils.js" "unit/" "./" "acceptance/" "mocha.opts" "integration/")
+
+ ("/home/" (21970 19664 882771 184000) "../" "jschiff/" "./")
+
+ ("/home/jschiff/src/node/coinwise/" (21970 52152 987837 306000) ".git/" "boot2docker-nfs.sh" "../" "public/" "README.md" "npm-debug.log" "./" "app/" ".gitignore" "docker-compose.yml" "bitcoin/" ".eslintrc")
+
+ ("/home/jschiff/src/node/" (21970 24211 430636 915000) "../" "./" "coinwise/")
+
+ ("/home/jschiff/src/" (21971 46789 125514 129000) "../" "rails/" "node/" "./")
+
+ ("/home/jschiff/.emacs.d/site-lisp/js2-refactor/" (21971 55295 870603 902000) "features/" "js2r-wrapping.el" ".git" "js2r-paredit.el" "../" "js2r-conveniences.el" ".travis.yml" "js2r-functions.el" "watch-tests.watchr" "run-tests.sh" "run-travis-ci.sh" "js2r-helpers.el" "js2-refactor-pkg.el" "js2r-conditionals.el" "Cask" "README.md" "./" "js2r-iife.el" "js2-refactor.el" "js2r-formatting.el" "COPYING" "js2r-vars.el" ".gitignore")
+
+ ("/home/jschiff/.emacs.d/site-lisp/" (21971 55293 170628 287000) "js2-refactor/" "../" "simplezen/" "tagedit/" "perspective/" "smooth-scrolling.el" "dash/" "diminish.el" "./" "undo-tree.el" "find-file-in-project/" "ido-ubiquitous/")
+
+ ("/home/jschiff/.emacs.d/site-lisp/find-file-in-project/" (21971 54575 709708 577000) ".git" "../" "README.org" "./" "find-file-in-project.el")
+
+ ("/home/jschiff/.emacs.d/snippets/js-mode/" (21971 54211 74268 435000) "for" "../" "function.yasnippet" "./" "for-in")
+
+ ("/home/jschiff/.emacs.d/snippets/" (21971 54181 514692 351000) "../" "js-mode/" "js2-mode/" "./")
+
+ ("/home/jschiff/.emacs.d/snippets/js2-mode/" (21971 54183 22670 473000) "../" ".yas-parents" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

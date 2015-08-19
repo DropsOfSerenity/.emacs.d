@@ -50,18 +50,23 @@
      htmlize
      visual-regexp
      markdown-mode
+     eproject
      fill-column-indicator
      flycheck
      flycheck-pos-tip
      flycheck-clojure
      flx
+     smex
      f
      flx-ido
+     expand-region
      paredit
      dired-details
      css-eldoc
      yasnippet
+     jump-char
      smartparens
+     smart-forward
      ido-vertical-mode
      ido-at-point
      simple-httpd
@@ -79,6 +84,9 @@
      cider
      yesql-ghosts
      string-edit
+     multiple-cursors
+     js2-mode
+     js2-refactor
      )))
 
 (condition-case nil
@@ -103,9 +111,85 @@
 (eval-after-load 'magit '(require 'setup-magit))
 ;; (eval-after-load 'grep '(require 'setup-rgrep))
 ;; (eval-after-load 'shell '(require 'setup-shell))
-;; (require 'setup-hippie)
-;; (require 'setup-yasnippet)
-;; (require 'setup-perspective)
-;; (require 'setup-ffip)
-;; (require 'setup-html-mode)
-;; (require 'setup-paredit)
+(require 'setup-hippie)
+(require 'setup-yasnippet)
+(require 'setup-perspective)
+(require 'setup-ffip)
+(require 'setup-html-mode)
+(require 'setup-paredit)
+
+(require 'prodigy)
+(global-set-key (kbd "C-x M-m") 'prodigy)
+
+;; Font lock dash.el
+(eval-after-load "dash" '(dash-enable-font-lock))
+
+;; Default setup of smartparens
+(require 'smartparens-config)
+(setq sp-autoescape-string-quote nil)
+(--each '(css-mode-hook
+          restclient-mode-hook
+          js-mode-hook
+          java-mode
+          ruby-mode
+          markdown-mode
+          groovy-mode
+          scala-mode)
+  (add-hook it 'turn-on-smartparens-mode))
+
+;; Language specific setup files
+(eval-after-load 'js2-mode '(require 'setup-js2-mode))
+(eval-after-load 'ruby-mode '(require 'setup-ruby-mode))
+(eval-after-load 'clojure-mode '(require 'setup-clojure-mode))
+(eval-after-load 'markdown-mode '(require 'setup-markdown-mode))
+
+(autoload 'auto-complete-mode "auto-complete" nil t)
+(eval-after-load 'flycheck '(require 'setup-flycheck))
+
+;; Map files to modes
+(require 'mode-mappings)
+
+;; Highlight escape sequences
+(require 'highlight-escape-sequences)
+(hes-mode)
+(put 'font-lock-regexp-grouping-backslash 'face-alias 'font-lock-builtin-face)
+
+;; Visual regexp
+(require 'visual-regexp)
+(define-key global-map (kbd "M-&") 'vr/query-replace)
+(define-key global-map (kbd "M-/") 'vr/replace)
+
+;; Functions (load all files in defuns-dir)
+(setq defuns-dir (expand-file-name "defuns" user-emacs-directory))
+(dolist (file (directory-files defuns-dir t "\\w+"))
+  (when (file-regular-p file)
+    (load file)))
+
+(require 'expand-region)
+(require 'multiple-cursors)
+(require 'delsel)
+(require 'jump-char)
+(require 'eproject)
+(require 'smart-forward)
+
+;; Don't use expand-region fast keys
+(setq expand-region-fast-keys-enabled nil)
+
+;; Show expand-region command used
+(setq er--show-expansion-message t)
+
+;; Fill column indicator
+(require 'fill-column-indicator)
+(setq fci-rule-color "#111122")
+
+;; Smart M-x is smart
+(require 'smex)
+(smex-initialize)
+
+;; Setup key bindings
+(require 'key-bindings)
+
+;; Emacs server
+(require 'server)
+(unless (server-running-p)
+  (server-start))

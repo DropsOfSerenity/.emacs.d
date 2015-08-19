@@ -7,12 +7,8 @@
 (global-hl-line-mode 1)
 
 ;; set custom theme dir
-(setq custom-theme-directory (concat user-emacs-directory "themes"))
-
-(dolist
-    (path (directory-files custom-theme-directory t "\\w+"))
-  (when (file-directory-p path)
-    (add-to-list 'custom-theme-load-path path)))
+(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
+(load-theme 'monokai t)
 
 ;; Don't defer screen updates when performing operations
 (setq redisplay-dont-pause t)
