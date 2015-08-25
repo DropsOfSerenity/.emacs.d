@@ -61,3 +61,27 @@ cat monokai.el
 ls
 mv monokai.el monokai-theme.el
 ls
+ls
+rails s
+~/.rbenv/shims/bundle exec rails server
+~/.rbenv/shims/bundle exec rails server
+~/.rbenv/versions/2.2.0/bundle exec rails server
+~/.rbenv/versions/2.2.0/rails server
+~/.rbenv/versions/2.2.0/bin/bundle exec rails server
+~/.rbenv/versions/2.2.0/bin/bundle exec rails server
+ls
+~/.rbenv/versions/2.2.0/bin/rails s
+~/.rbenv/versions/2.2.0/bin/bundle
+ls
+cd ../..
+ls
+lein run
+lein run
+lein uberjar
+java -jar target/uberjar/clojure-noob-0.1.0-SNAPSHOT-standalone.jar 
+git init
+lein repl
+ls
+cd ../site-lisp/
+ls
+git submodule add git@github.com:magnars/crappy-jsp-mode.git

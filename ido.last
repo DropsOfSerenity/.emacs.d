@@ -2,9 +2,12 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/jschiff/" . ".emacs.d/")
+ ("/home/jschiff/src/clojure/clojure-noob/src/" . "clojure_noob/")
+ ("/home/jschiff/src/clojure/" . "clojure-noob/")
+ ("/home/jschiff/src/rails/" . "yummikarma/")
+ ("/home/jschiff/" . "src/")
  ("/home/jschiff/src/node/coinwise/" . "app/")
- ("/home/jschiff/src/" . "node/")
+ ("/home/jschiff/src/" . "clojure/")
  ("/home/jschiff/src/node/" . "coinwise/")
  ("/home/jschiff/.emacs.d/site-lisp/" . "js2-refactor/")
  ("/home/jschiff/.emacs.d/" . "settings/")
@@ -12,12 +15,15 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/jschiff/src/clojure/clojure-noob/"
  "/home/jschiff/.emacs.d/settings/"
- "/home/jschiff/.emacs.d/themes/"
  "/home/jschiff/.emacs.d/"
- "/home/jschiff/"
+ "/home/jschiff/src/rails/yummikarma/"
  "/home/jschiff/src/node/coinwise/app/"
+ "/home/jschiff/src/clojure/clojure-noob/src/clojure_noob/"
  "/home/jschiff/.emacs.d/defuns/"
+ "/home/jschiff/.emacs.d/themes/"
+ "/home/jschiff/"
  "/home/jschiff/.emacs.d/site-lisp/js2-refactor/"
  "/home/jschiff/.emacs.d/site-lisp/find-file-in-project/"
  "/home/jschiff/.emacs.d/snippets/js-mode/"
@@ -27,31 +33,61 @@
 
 ;; ----- ido-work-file-list -----
 (
- "appearance.el"
- "monokai.el"
+ "README.md"
+ "setup-web-mode.el"
  "init.el"
- "setup-perspective.el"
- "key-bindings.el"
- "setup-clojure-mode.el"
- "test.clj"
- "setup-markdown-mode.el"
- "setup-ruby-mode.el"
- "default-black.el"
+ "Gemfile"
+ "mode-mappings.el"
+ "app.js"
+ "core.clj"
+ "project.clj"
+ "setup-projects.el"
+ "setup-magit.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/jschiff/" (21972 3766 999871 326000) ".psqlrc" ".gemrc" ".tmux.conf.local" ".compiz/" ".gitconfig.local" ".Xauthority" ".pki/" ".adobe/" ".vimrc" ".aliases" ".emacs.d/" ".zshenv" ".weechat/" ".fonts/" "Desktop/" ".ICEauthority" "projects/" ".gnupg/" "../" ".mpd/" ".gconf/" ".git_template/" "Templates/" ".lastpass/" "Videos/" ".virtualenvs/" ".xsession-errors" "dotfiles/" ".zshrc" ".cache/" ".RubyMine70/" "Downloads/" ".hushlogin" "src/" ".gnome2_private/" ".vimrc.local" ".mozilla/" "Public/" ".gnome2/" ".profile" ".tmux.conf" ".viminfo" ".xinitrc" ".dmrc" ".rbenv/" ".vimrc.bundles" ".zsh/" ".gnome/" ".Skype/" ".smex-items" "Audiobooks/" ".vimrc.bundles.local" ".gitconfig" ".gvimrc.local" "./" ".xsession-errors.old" ".zcompdump" ".rcrc" "Podcasts/" ".gitmessage" ".agignore" ".psqlrc.local" ".npm/" ".local/" ".v8flags.3.28.71.19.jschiff.json" ".macromedia/" ".zhistory" ".gitignore" ".zshrc.local" ".sudo_as_admin_successful" "dotfiles-local/" ".bash_history" ".bashrc" ".icons/" "Music/" ".ncmpcpp/" "Documents/" ".config/" "Sync/" ".npm-upgrade.sh" ".bash_logout" "Pictures/" ".ssh/" ".WebStorm10/" ".Xresources" ".bin/" ".vim/" ".rspec" ".gem/" ".gvimrc")
+ ("/home/jschiff/src/clojure/clojure-noob/" (21972 46418 818408 142000) "project.clj" ".git/" "../" "target/" "src/" "doc/" "resources/" "LICENSE" "README.md" ".hgignore" "./" "test/" ".lein-repl-history" ".gitignore")
 
- ("/home/jschiff/.emacs.d/settings/" (21972 3634 856086 687000) "setup-ruby-mode.el" "../" "setup-html-mode.el" "setup-package.el" "setup-ido.el" "setup-perspective.el" "setup-clojure-mode.el" "mode-mappings.el" "setup-flycheck.el" "setup-hippie.el" "setup-magit.el" "./" "key-bindings.el" "setup-ffip.el" "setup-markdown-mode.el" "setup-js2-mode.el" "sane-defaults.el" "setup-paredit.el" "appearance.el" "setup-yasnippet.el")
+ ("/home/jschiff/src/rails/yummikarma/" (21973 33471 709098 108000) "spec/" "bin/" "vendor/" ".ruby-version" ".git/" "../" ".travis.yml" "log/" "browserslist" "Gemfile.lock" "config/" "tmp/" "Gemfile" "Rakefile" "config.ru" "lib/" "public/" "README.md" "./" "Procfile" "db/" "app/" ".gitignore" ".sample.env" ".foreman" ".env")
+
+ ("/home/jschiff/src/rails/yummikarma/db/" (21973 22670 241323 126000) "migrate/" "../" "seeds/" "./" "schema.rb" "seeds.rb")
+
+ ("/home/jschiff/.emacs.d/settings/" (21973 2866 435484 671000) "setup-ruby-mode.el" "../" "setup-html-mode.el" "setup-projects.el" "setup-package.el" "setup-ido.el" "setup-perspective.el" "setup-clojure-mode.el" "mode-mappings.el" "setup-flycheck.el" "setup-hippie.el" "setup-magit.el" "./" "key-bindings.el" "setup-ffip.el" "setup-markdown-mode.el" "setup-js2-mode.el" "sane-defaults.el" "setup-paredit.el" "appearance.el" "setup-yasnippet.el")
+
+ ("/home/jschiff/.emacs.d/" (21973 2936 817491 792000) ".git/" "site-lisp/" "../" "defuns/" "eshell/" "elpa/" "themes/" "custom.el" "backups/" ".gitmodules" "ido.last" "history" "./" "init.el" ".gitignore" "places" "settings/" "auto-save-list/" "recentf" "snippets/")
+
+ ("/home/jschiff/src/rails/yummikarma/app/views/devise/registrations/" (21973 2685 730852 337000) "../" "new.html.erb" "edit.html.erb" "./")
+
+ ("/home/jschiff/src/" (21972 64872 994852 240000) "../" "static/" "rails/" "node/" "clojure/" "./")
+
+ ("/home/jschiff/" (21973 2601 460699 378000) ".psqlrc" ".gemrc" ".tmux.conf.local" ".compiz/" ".gitconfig.local" ".Xauthority" ".pki/" ".adobe/" ".vimrc" ".aliases" ".emacs.d/" ".zshenv" ".weechat/" ".fonts/" "Desktop/" ".ICEauthority" "projects/" ".gnupg/" "../" ".lein/" ".mpd/" ".netrc" ".gconf/" ".git_template/" "Templates/" ".lastpass/" "Videos/" ".virtualenvs/" ".xsession-errors" "dotfiles/" ".zshrc" ".cache/" ".RubyMine70/" "Downloads/" ".hushlogin" "src/" ".gnome2_private/" ".vimrc.local" ".mozilla/" "Public/" ".gnome2/" ".profile" ".tmux.conf" ".viminfo" ".xinitrc" ".dmrc" ".rbenv/" ".vimrc.bundles" ".zsh/" ".gnome/" ".Skype/" ".smex-items" "Audiobooks/" ".vimrc.bundles.local" ".gitconfig" ".gvimrc.local" "./" ".xsession-errors.old" ".zcompdump" ".rcrc" "Podcasts/" ".gitmessage" ".agignore" ".psqlrc.local" ".npm/" ".local/" ".v8flags.3.28.71.19.jschiff.json" ".macromedia/" ".zhistory" ".gitignore" ".heroku/" ".zshrc.local" ".sudo_as_admin_successful" "dotfiles-local/" ".bash_history" ".bashrc" ".icons/" "Music/" ".ncmpcpp/" "Documents/" ".config/" "Sync/" ".npm-upgrade.sh" ".bash_logout" "Pictures/" ".ssh/" ".WebStorm10/" ".m2/" ".Xresources" ".bin/" ".vim/" ".rspec" ".gem/" ".gvimrc")
+
+ ("/home/jschiff/src/rails/yummikarma/spec/features/" (21973 1857 235786 976000) ".keep" "../" "./" "patient_signs_up_spec.rb" "patient_checkout_process_spec.rb" "dispensary_signs_up_spec.rb" "patient_cart_management_spec.rb")
+
+ ("/home/jschiff/src/rails/yummikarma/app/views/pages/" (21972 46111 290023 727000) ".keep" "topicals.html.erb" "laws-by-state.html.erb" "get-yk-in-your-area.html.erb" "blog-soon" "product.html.erb" "../" "brands.html.erb" "social.html.erb" "products.html.erb" "cannagirls.html.erb" "our-ceo.html.erb" "new.html.erb" "./" "about.html.erb" "tinctures.html.erb" "advocate-and-support.html.erb" "medical-marijuana.html.erb" "legal-info.html.erb" "edibles.html.erb" "prop215.html.erb" "contact.html.erb" "locations.html.erb" "benefits-of-medical-marijuana.html.erb" "home.html.erb" "dispensary-inquires.html.erb" "savoryline.html.erb")
+
+ ("/home/jschiff/src/rails/yummikarma/app/views/" (21971 46888 897595 562000) "dispensary_mailer/" "order_mailer/" "../" "products/" "brands/" "bundles/" "patient_mailer/" "catalog/" "pages/" "orders/" "patient_orders/" "patients/" "./" "layouts/" "cart_items/" "application/" "product_types/" "shared/" "devise/" "dispensaries/" "refills/" "carts/")
+
+ ("/home/jschiff/src/rails/yummikarma/app/views/layouts/" (21972 45622 869399 813000) "../" "application.html.erb" "./" "mailer.text.erb" "mailer.html.erb")
+
+ ("/home/jschiff/src/clojure/clojure-noob/src/clojure_noob/" (21972 18721 528862 696000) "../" "./" "core.clj")
+
+ ("/home/jschiff/src/node/coinwise/app/" (21972 7384 459293 130000) "bin/" "views/" "services/" "Dockerfile" "../" "middleware/" "node_modules/" "coinwise-worker.conf" "nightwatch.json" "models/" "migrations/" "config/" "public/" "app.js" "./" "test/" "coinwise.conf" "gulpfile.js" "worker.js" "package.json" "tasks/" "routes/")
+
+ ("/home/jschiff/src/clojure/clojure-noob/src/" (21972 12148 369299 900000) "../" "clojure_noob/" "./")
+
+ ("/home/jschiff/src/clojure/" (21972 12148 365299 897000) "clojure-noob/" "../" "./")
+
+ ("/home/jschiff/src/rails/yummikarma/app/admin/" (21972 5549 250410 679000) "dispensary.rb" "../" "product_sub_type.rb" "product_type.rb" "brand.rb" "patient_order.rb" "patient.rb" "./" "admin_user.rb" "order.rb" "dashboard.rb" "bundle.rb" "product.rb")
+
+ ("/home/jschiff/src/rails/yummikarma/app/models/" (21971 46888 893595 559000) ".keep" "dispensary.rb" "../" "product_sub_type.rb" "bundle_item.rb" "cart_item.rb" "patient_order_item.rb" "catalog.rb" "product_type.rb" "concerns/" "brand.rb" "patient_order.rb" "patient.rb" "./" "admin_user.rb" "order.rb" "cart.rb" "bundle.rb" "product.rb")
+
+ ("/home/jschiff/src/rails/" (21971 46794 853518 797000) "../" "yummikarma/" "./")
 
  ("/home/jschiff/.emacs.d/themes/" (21972 3461 732611 495000) "../" "monokai.el" "./" "default-black.el")
 
- ("/home/jschiff/.emacs.d/" (21972 3641 424072 634000) ".git/" "site-lisp/" "../" "defuns/" "eshell/" "elpa/" "themes/" "custom.el" "backups/" ".gitmodules" "ido.last" "history" "./" "init.el" ".gitignore" "places" "settings/" "auto-save-list/" "recentf" "snippets/")
-
  ("/home/jschiff/.emacs.d/defuns/" (21971 59121 501517 993000) "../" "editing-defuns.el" "js2r-defuns.el" "buffer-defuns.el" "./" "snippet-helpers.el")
-
- ("/home/jschiff/src/node/coinwise/app/" (21971 60259 30701 777000) "bin/" "views/" "services/" "Dockerfile" "../" "middleware/" "node_modules/" "coinwise-worker.conf" "nightwatch.json" "models/" "migrations/" "config/" "public/" "app.js" "./" "test/" "coinwise.conf" "gulpfile.js" "worker.js" "package.json" "tasks/" "routes/")
 
  ("/home/jschiff/src/node/coinwise/app/test/" (21970 24995 876077 781000) "../" "utils.js" "unit/" "./" "acceptance/" "mocha.opts" "integration/")
 
@@ -60,8 +96,6 @@
  ("/home/jschiff/src/node/coinwise/" (21970 52152 987837 306000) ".git/" "boot2docker-nfs.sh" "../" "public/" "README.md" "npm-debug.log" "./" "app/" ".gitignore" "docker-compose.yml" "bitcoin/" ".eslintrc")
 
  ("/home/jschiff/src/node/" (21970 24211 430636 915000) "../" "./" "coinwise/")
-
- ("/home/jschiff/src/" (21971 46789 125514 129000) "../" "rails/" "node/" "./")
 
  ("/home/jschiff/.emacs.d/site-lisp/js2-refactor/" (21971 55295 870603 902000) "features/" "js2r-wrapping.el" ".git" "js2r-paredit.el" "../" "js2r-conveniences.el" ".travis.yml" "js2r-functions.el" "watch-tests.watchr" "run-tests.sh" "run-travis-ci.sh" "js2r-helpers.el" "js2-refactor-pkg.el" "js2r-conditionals.el" "Cask" "README.md" "./" "js2r-iife.el" "js2-refactor.el" "js2r-formatting.el" "COPYING" "js2r-vars.el" ".gitignore")
 

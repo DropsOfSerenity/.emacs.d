@@ -10,6 +10,8 @@
 (set-default 'magit-stage-all-confirm nil)
 (set-default 'magit-revert-buffers 'silent)
 
+(setq magit-push-always-verify nil)
+
 ;; full screen vc-annotate
 (defun vc-annotate-quit ()
   "Restores the previous window configuration and kills the vc-annotate buffer"

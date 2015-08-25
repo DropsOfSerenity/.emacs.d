@@ -1,0 +1,1 @@
+("~/.emacs.d/" "~/src/node/coinwise/" "~/src/rails/yummikarma/" "~/src/clojure/pegthing/" "~/src/clojure/fwpd/" "~/src/clojure/clojure-noob/")

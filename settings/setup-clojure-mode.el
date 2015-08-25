@@ -7,6 +7,4 @@
 (defadvice nrepl-load-current-buffer (before save-first activate)
   (save-buffer))
 
-(require 'clj-refactor)
-
 (provide 'setup-clojure-mode)

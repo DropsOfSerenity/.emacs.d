@@ -74,19 +74,25 @@
      nodejs-repl
      restclient
      highlight-escape-sequences
+     rbenv
      whitespace-cleanup-mode
      elisp-slime-nav
      dockerfile-mode
      clojure-mode
      clojure-mode-extra-font-locking
      groovy-mode
+     projectile
+     projectile-rails
      prodigy
      cider
+     rhtml-mode
      yesql-ghosts
      string-edit
      multiple-cursors
      js2-mode
      js2-refactor
+     web-mode
+     yaml-mode
      )))
 
 (condition-case nil
@@ -117,6 +123,11 @@
 (require 'setup-ffip)
 (require 'setup-html-mode)
 (require 'setup-paredit)
+(require 'setup-web-mode)
+(require 'rbenv)
+(global-rbenv-mode)
+(projectile-global-mode)
+(add-hook 'projectile-mode-hook 'projectile-rails-on)
 
 (require 'prodigy)
 (global-set-key (kbd "C-x M-m") 'prodigy)
@@ -188,6 +199,8 @@
 
 ;; Setup key bindings
 (require 'key-bindings)
+
+(require 'setup-projects)
 
 ;; Emacs server
 (require 'server)

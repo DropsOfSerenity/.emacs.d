@@ -25,3 +25,6 @@
 [submodule "site-lisp/clj-refactor"]
 	path = site-lisp/clj-refactor
 	url = git@github.com:clojure-emacs/clj-refactor.el.git
+[submodule "site-lisp/crappy-jsp-mode"]
+	path = site-lisp/crappy-jsp-mode
+	url = git@github.com:magnars/crappy-jsp-mode.git

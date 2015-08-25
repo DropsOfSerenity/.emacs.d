@@ -30,10 +30,11 @@
 (add-to-list 'auto-mode-alist '("\\.jade$" . jade-mode))
 
 ;; HTML
-(add-to-list 'auto-mode-alist '("\\.html\\'" . crappy-jsp-mode))
-(add-to-list 'auto-mode-alist '("\\.tag$" . html-mode))
-(add-to-list 'auto-mode-alist '("\\.vm$" . html-mode))
-(add-to-list 'auto-mode-alist '("\\.ejs$" . html-mode))
+(autoload 'web-mode "web-mode")
+(add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.tag$" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.vm$" . web-mode))
+(add-to-list 'auto-mode-alist '("\\.ejs$" . web-mode))
 
 ;; JSP
 (autoload 'crappy-jsp-mode "crappy-jsp-mode")
@@ -50,7 +51,7 @@
 (add-to-list 'auto-mode-alist '("Gemfile" . ruby-mode))
 (add-to-list 'auto-mode-alist '("Vagrantfile" . ruby-mode))
 (add-to-list 'auto-mode-alist '("capfile" . ruby-mode))
-(add-to-list 'auto-mode-alist '("\\.erb$" . rhtml-mode))
+(add-to-list 'auto-mode-alist '("\\.erb$" . web-mode))
 
 ;; Puppet
 (autoload 'puppet-mode "puppet-mode")
