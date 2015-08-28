@@ -85,3 +85,17 @@ ls
 cd ../site-lisp/
 ls
 git submodule add git@github.com:magnars/crappy-jsp-mode.git
+ls
+cd ..
+ls
+cd ..
+ls
+mv app/gulpfile.js .
+rm npm-debug.log 
+npm init
+ls
+ls
+touch _nav.scss
+cd ..
+ls
+touch customized-bootstrap-variables.scss

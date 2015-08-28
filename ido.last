@@ -15,6 +15,11 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/jschiff/Downloads/hero-slider/scss/"
+ "/home/jschiff/Downloads/hero-slider/"
+ "/home/jschiff/Downloads/hero-slider/js/"
+ "/home/jschiff/Downloads/hero-slider/partials/"
+ "/home/jschiff/src/node/coinwise/app/services/"
  "/home/jschiff/src/clojure/clojure-noob/"
  "/home/jschiff/.emacs.d/settings/"
  "/home/jschiff/.emacs.d/"
@@ -33,20 +38,36 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "style.scss"
+ "index.html"
+ "main.js"
+ "_layout.scss"
+ "_variables.scss"
+ "_mixins.scss"
+ "bitcoin-utils.js"
+ "bitcoin-price.js"
  "README.md"
  "setup-web-mode.el"
- "init.el"
- "Gemfile"
- "mode-mappings.el"
- "app.js"
- "core.clj"
- "project.clj"
- "setup-projects.el"
- "setup-magit.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/jschiff/Downloads/hero-slider/js/" (21863 1137 0 0) "modernizr.js" "../" "main.js" ".DS_Store" "./" "jquery-2.1.1.js")
+
+ ("/home/jschiff/Downloads/hero-slider/partials/" (21862 60871 0 0) "../" "_variables.scss" "_layout.scss" "./" "_mixins.scss")
+
+ ("/home/jschiff/Downloads/hero-slider/scss/" (21981 64109 445082 106000) "../" "style.scss" "./" ".#style.scss")
+
+ ("/home/jschiff/Downloads/" (21981 63782 865800 597000) "BLPca02139f8300e54f39e65d38fd775be6.zip" "unity-editor-5.1.0f3+2015082501_amd64.deb" "../" "hero-slider/" "hero-slider.zip" "./" "BLP9361773e10858fb5223bf9231588c6bb.zip" "SecureW2_JoinNow.py" "template/")
+
+ ("/home/jschiff/Downloads/hero-slider/" (21981 63886 270196 621000) "#index.html#" "../" "assets/" "readme.pdf" "scss/" "css/" "./" "index.html" "partials/" ".#index.html" "js/")
+
+ ("/home/jschiff/src/node/coinwise/app/services/" (21980 49706 168206 538000) "pagination.js" "pbkdf2.js" "events.js" "../" "notification.js" "messaging.js" "bitcoin-price.js" "./" "mailer.js" "bitcoind-connection.js")
+
+ ("/home/jschiff/src/node/coinwise/app/" (21980 63674 503587 176000) "bin/" "views/" "services/" "Dockerfile" "../" "middleware/" "node_modules/" "coinwise-worker.conf" "nightwatch.json" "models/" "migrations/" "config/" "public/" "app.js" "./" "test/" "coinwise.conf" "gulpfile.js" "worker.js" "package.json" "tasks/" "routes/")
+
+ ("/home/jschiff/src/node/coinwise/" (21980 63605 562049 290000) ".ruby-version" ".git/" "boot2docker-nfs.sh" "../" "Gemfile.lock" "config/" "Gemfile" "lib/" "public/" "README.md" "npm-debug.log" "./" "app/" ".gitignore" "docker-compose.yml" "Capfile" "bitcoin/" ".eslintrc")
+
  ("/home/jschiff/src/clojure/clojure-noob/" (21972 46418 818408 142000) "project.clj" ".git/" "../" "target/" "src/" "doc/" "resources/" "LICENSE" "README.md" ".hgignore" "./" "test/" ".lein-repl-history" ".gitignore")
 
  ("/home/jschiff/src/rails/yummikarma/" (21973 33471 709098 108000) "spec/" "bin/" "vendor/" ".ruby-version" ".git/" "../" ".travis.yml" "log/" "browserslist" "Gemfile.lock" "config/" "tmp/" "Gemfile" "Rakefile" "config.ru" "lib/" "public/" "README.md" "./" "Procfile" "db/" "app/" ".gitignore" ".sample.env" ".foreman" ".env")
@@ -73,8 +94,6 @@
 
  ("/home/jschiff/src/clojure/clojure-noob/src/clojure_noob/" (21972 18721 528862 696000) "../" "./" "core.clj")
 
- ("/home/jschiff/src/node/coinwise/app/" (21972 7384 459293 130000) "bin/" "views/" "services/" "Dockerfile" "../" "middleware/" "node_modules/" "coinwise-worker.conf" "nightwatch.json" "models/" "migrations/" "config/" "public/" "app.js" "./" "test/" "coinwise.conf" "gulpfile.js" "worker.js" "package.json" "tasks/" "routes/")
-
  ("/home/jschiff/src/clojure/clojure-noob/src/" (21972 12148 369299 900000) "../" "clojure_noob/" "./")
 
  ("/home/jschiff/src/clojure/" (21972 12148 365299 897000) "clojure-noob/" "../" "./")
@@ -92,8 +111,6 @@
  ("/home/jschiff/src/node/coinwise/app/test/" (21970 24995 876077 781000) "../" "utils.js" "unit/" "./" "acceptance/" "mocha.opts" "integration/")
 
  ("/home/" (21970 19664 882771 184000) "../" "jschiff/" "./")
-
- ("/home/jschiff/src/node/coinwise/" (21970 52152 987837 306000) ".git/" "boot2docker-nfs.sh" "../" "public/" "README.md" "npm-debug.log" "./" "app/" ".gitignore" "docker-compose.yml" "bitcoin/" ".eslintrc")
 
  ("/home/jschiff/src/node/" (21970 24211 430636 915000) "../" "./" "coinwise/")
 

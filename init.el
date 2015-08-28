@@ -93,6 +93,8 @@
      js2-refactor
      web-mode
      yaml-mode
+     ag
+     scss-mode
      )))
 
 (condition-case nil
@@ -118,6 +120,7 @@
 ;; (eval-after-load 'grep '(require 'setup-rgrep))
 ;; (eval-after-load 'shell '(require 'setup-shell))
 (require 'setup-hippie)
+(require 'setup-scss-mode)
 (require 'setup-yasnippet)
 (require 'setup-perspective)
 (require 'setup-ffip)
