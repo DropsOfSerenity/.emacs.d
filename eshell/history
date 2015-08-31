@@ -99,3 +99,7 @@ touch _nav.scss
 cd ..
 ls
 touch customized-bootstrap-variables.scss
+ls
+cd settings/
+ls
+touch setup-python-mode.el

@@ -9,7 +9,6 @@
 ~/.emacs.d
 /home/jschiff/.emacs.d/themes
 ~
-/home/jschiff/.emacs.d
 /home/jschiff/.emacs.d/themes
 ~/src/rails/yummikarma
 /home/jschiff/src/clojure/clojure-noob/src/clojure_noob
@@ -22,3 +21,5 @@
 /home/jschiff/src/node/coinwise
 /home/jschiff/src/rails/yummikarma/app/assets/stylesheets/2-modules
 /home/jschiff/src/rails/yummikarma/app/assets/stylesheets
+/home/jschiff/.emacs.d
+/home/jschiff/.emacs.d/settings

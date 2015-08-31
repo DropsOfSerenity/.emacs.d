@@ -17,7 +17,8 @@ site-lisp/adventur-mode
 /.sx/
 /ensime/
 history
-ido.last
-places
-projectile-bookmarks.eld
-recentf
+/ido.last
+/places
+/projectile-bookmarks.eld
+/recentf
+/eshell

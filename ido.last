@@ -2,13 +2,13 @@
 
 ;; ----- ido-last-directory-list -----
 (
- (#("/home/jschiff/src/django/" 18 24 (face flx-highlight-face)) . #("3dpo/" 0 4 (face flx-highlight-face)))
+ ("/home/jschiff/src/django/" . "3dpo/")
  ("/home/jschiff/src/clojure/clojure-noob/src/" . "clojure_noob/")
  ("/home/jschiff/src/clojure/" . "clojure-noob/")
  ("/home/jschiff/src/rails/" . "yummikarma/")
  ("/home/jschiff/" . "src/")
  ("/home/jschiff/src/node/coinwise/" . "app/")
- ("/home/jschiff/src/" . #("django/" 0 6 (face flx-highlight-face)))
+ ("/home/jschiff/src/" . "django/")
  ("/home/jschiff/src/node/" . "coinwise/")
  ("/home/jschiff/.emacs.d/site-lisp/" . "js2-refactor/")
  ("/home/jschiff/.emacs.d/" . "settings/")
@@ -16,7 +16,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
- #("/home/jschiff/src/django/3dpo/" 18 24 (face flx-highlight-face) 25 29 (face flx-highlight-face))
+ "/home/jschiff/src/django/3dpo/"
  "/home/jschiff/src/rails/yummikarma/app/assets/stylesheets/3-layouts/"
  "/home/jschiff/Downloads/hero-slider/scss/"
  "/home/jschiff/Downloads/hero-slider/"
@@ -55,9 +55,9 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- (#("/home/jschiff/src/django/3dpo/" 18 24 (face flx-highlight-face) 25 29 (face flx-highlight-face)) (21988 35099 888635 255000) "3dpo.nginx.conf" ".git/" "../" "media/" "manage.py" "requirements/" "Makefile" "static/" "fabfile.py" "config/" "README.md" "db.sqlite3" "fixtures/" "3dpo.upstart.conf" "./" ".gitignore")
+ ("/home/jschiff/src/django/3dpo/" (21988 35099 888635 255000) "3dpo.nginx.conf" ".git/" "../" "media/" "manage.py" "requirements/" "Makefile" "static/" "fabfile.py" "config/" "README.md" "db.sqlite3" "fixtures/" "3dpo.upstart.conf" "./" ".gitignore")
 
- (#("/home/jschiff/src/django/" 18 24 (face flx-highlight-face)) (21988 34354 436667 960000) "../" "3dpo/" "project_name/" "./")
+ ("/home/jschiff/src/django/" (21988 34354 436667 960000) "../" "3dpo/" "project_name/" "./")
 
  ("/home/jschiff/src/" (21983 54651 832472 97000) "../" "django/" "static/" "rails/" "node/" "clojure/" "./")
 
