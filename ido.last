@@ -2,12 +2,13 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ (#("/home/jschiff/src/django/" 18 24 (face flx-highlight-face)) . #("3dpo/" 0 4 (face flx-highlight-face)))
  ("/home/jschiff/src/clojure/clojure-noob/src/" . "clojure_noob/")
  ("/home/jschiff/src/clojure/" . "clojure-noob/")
  ("/home/jschiff/src/rails/" . "yummikarma/")
  ("/home/jschiff/" . "src/")
  ("/home/jschiff/src/node/coinwise/" . "app/")
- ("/home/jschiff/src/" . "clojure/")
+ ("/home/jschiff/src/" . #("django/" 0 6 (face flx-highlight-face)))
  ("/home/jschiff/src/node/" . "coinwise/")
  ("/home/jschiff/.emacs.d/site-lisp/" . "js2-refactor/")
  ("/home/jschiff/.emacs.d/" . "settings/")
@@ -15,6 +16,8 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ #("/home/jschiff/src/django/3dpo/" 18 24 (face flx-highlight-face) 25 29 (face flx-highlight-face))
+ "/home/jschiff/src/rails/yummikarma/app/assets/stylesheets/3-layouts/"
  "/home/jschiff/Downloads/hero-slider/scss/"
  "/home/jschiff/Downloads/hero-slider/"
  "/home/jschiff/Downloads/hero-slider/js/"
@@ -38,6 +41,8 @@
 
 ;; ----- ido-work-file-list -----
 (
+ "manage.py"
+ "_social.scss"
  "style.scss"
  "index.html"
  "main.js"
@@ -46,12 +51,22 @@
  "_mixins.scss"
  "bitcoin-utils.js"
  "bitcoin-price.js"
- "README.md"
- "setup-web-mode.el"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ (#("/home/jschiff/src/django/3dpo/" 18 24 (face flx-highlight-face) 25 29 (face flx-highlight-face)) (21988 35099 888635 255000) "3dpo.nginx.conf" ".git/" "../" "media/" "manage.py" "requirements/" "Makefile" "static/" "fabfile.py" "config/" "README.md" "db.sqlite3" "fixtures/" "3dpo.upstart.conf" "./" ".gitignore")
+
+ (#("/home/jschiff/src/django/" 18 24 (face flx-highlight-face)) (21988 34354 436667 960000) "../" "3dpo/" "project_name/" "./")
+
+ ("/home/jschiff/src/" (21983 54651 832472 97000) "../" "django/" "static/" "rails/" "node/" "clojure/" "./")
+
+ ("/home/jschiff/src/node/coinwise/" (21987 62618 200620 568000) ".ruby-version" ".git/" "boot2docker-nfs.sh" "../" "typings/" "node_modules/" "Gemfile.lock" "config/" "Gemfile" "lib/" "public/" "README.md" "./" "app/" ".gitignore" "docker-compose.yml" "Capfile" "bitcoin/" ".eslintrc")
+
+ ("/home/jschiff/src/node/coinwise/app/" (21987 63676 632201 160000) "bin/" "views/" "services/" "Dockerfile" "../" "middleware/" "node_modules/" "coinwise-worker.conf" "nightwatch.json" "models/" "migrations/" "config/" "public/" "app.js" "./" "test/" "coinwise.conf" "gulpfile.js" "worker.js" "package.json" "tasks/" "routes/")
+
+ ("/home/jschiff/src/rails/yummikarma/app/assets/stylesheets/3-layouts/" (21986 2520 15477 872000) "../" "_cart.scss" "_laws-by-state.scss" "_brands.scss" "0-layouts-dir.scss" "_locations.scss" "./" "_legal.scss" "_home.scss" "_our-ceo.scss" "_about.scss")
+
  ("/home/jschiff/Downloads/hero-slider/js/" (21863 1137 0 0) "modernizr.js" "../" "main.js" ".DS_Store" "./" "jquery-2.1.1.js")
 
  ("/home/jschiff/Downloads/hero-slider/partials/" (21862 60871 0 0) "../" "_variables.scss" "_layout.scss" "./" "_mixins.scss")
@@ -64,10 +79,6 @@
 
  ("/home/jschiff/src/node/coinwise/app/services/" (21980 49706 168206 538000) "pagination.js" "pbkdf2.js" "events.js" "../" "notification.js" "messaging.js" "bitcoin-price.js" "./" "mailer.js" "bitcoind-connection.js")
 
- ("/home/jschiff/src/node/coinwise/app/" (21980 63674 503587 176000) "bin/" "views/" "services/" "Dockerfile" "../" "middleware/" "node_modules/" "coinwise-worker.conf" "nightwatch.json" "models/" "migrations/" "config/" "public/" "app.js" "./" "test/" "coinwise.conf" "gulpfile.js" "worker.js" "package.json" "tasks/" "routes/")
-
- ("/home/jschiff/src/node/coinwise/" (21980 63605 562049 290000) ".ruby-version" ".git/" "boot2docker-nfs.sh" "../" "Gemfile.lock" "config/" "Gemfile" "lib/" "public/" "README.md" "npm-debug.log" "./" "app/" ".gitignore" "docker-compose.yml" "Capfile" "bitcoin/" ".eslintrc")
-
  ("/home/jschiff/src/clojure/clojure-noob/" (21972 46418 818408 142000) "project.clj" ".git/" "../" "target/" "src/" "doc/" "resources/" "LICENSE" "README.md" ".hgignore" "./" "test/" ".lein-repl-history" ".gitignore")
 
  ("/home/jschiff/src/rails/yummikarma/" (21973 33471 709098 108000) "spec/" "bin/" "vendor/" ".ruby-version" ".git/" "../" ".travis.yml" "log/" "browserslist" "Gemfile.lock" "config/" "tmp/" "Gemfile" "Rakefile" "config.ru" "lib/" "public/" "README.md" "./" "Procfile" "db/" "app/" ".gitignore" ".sample.env" ".foreman" ".env")
@@ -79,8 +90,6 @@
  ("/home/jschiff/.emacs.d/" (21973 2936 817491 792000) ".git/" "site-lisp/" "../" "defuns/" "eshell/" "elpa/" "themes/" "custom.el" "backups/" ".gitmodules" "ido.last" "history" "./" "init.el" ".gitignore" "places" "settings/" "auto-save-list/" "recentf" "snippets/")
 
  ("/home/jschiff/src/rails/yummikarma/app/views/devise/registrations/" (21973 2685 730852 337000) "../" "new.html.erb" "edit.html.erb" "./")
-
- ("/home/jschiff/src/" (21972 64872 994852 240000) "../" "static/" "rails/" "node/" "clojure/" "./")
 
  ("/home/jschiff/" (21973 2601 460699 378000) ".psqlrc" ".gemrc" ".tmux.conf.local" ".compiz/" ".gitconfig.local" ".Xauthority" ".pki/" ".adobe/" ".vimrc" ".aliases" ".emacs.d/" ".zshenv" ".weechat/" ".fonts/" "Desktop/" ".ICEauthority" "projects/" ".gnupg/" "../" ".lein/" ".mpd/" ".netrc" ".gconf/" ".git_template/" "Templates/" ".lastpass/" "Videos/" ".virtualenvs/" ".xsession-errors" "dotfiles/" ".zshrc" ".cache/" ".RubyMine70/" "Downloads/" ".hushlogin" "src/" ".gnome2_private/" ".vimrc.local" ".mozilla/" "Public/" ".gnome2/" ".profile" ".tmux.conf" ".viminfo" ".xinitrc" ".dmrc" ".rbenv/" ".vimrc.bundles" ".zsh/" ".gnome/" ".Skype/" ".smex-items" "Audiobooks/" ".vimrc.bundles.local" ".gitconfig" ".gvimrc.local" "./" ".xsession-errors.old" ".zcompdump" ".rcrc" "Podcasts/" ".gitmessage" ".agignore" ".psqlrc.local" ".npm/" ".local/" ".v8flags.3.28.71.19.jschiff.json" ".macromedia/" ".zhistory" ".gitignore" ".heroku/" ".zshrc.local" ".sudo_as_admin_successful" "dotfiles-local/" ".bash_history" ".bashrc" ".icons/" "Music/" ".ncmpcpp/" "Documents/" ".config/" "Sync/" ".npm-upgrade.sh" ".bash_logout" "Pictures/" ".ssh/" ".WebStorm10/" ".m2/" ".Xresources" ".bin/" ".vim/" ".rspec" ".gem/" ".gvimrc")
 

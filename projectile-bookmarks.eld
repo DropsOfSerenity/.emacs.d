@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/src/rails/yummikarma/" "~/src/node/coinwise/" "~/src/clojure/pegthing/" "~/src/clojure/fwpd/" "~/src/clojure/clojure-noob/")
+("~/.emacs.d/" "~/src/django/3dpo/" "~/src/rails/yummikarma/" "~/src/node/coinwise/" "~/src/clojure/pegthing/" "~/src/clojure/fwpd/" "~/src/clojure/clojure-noob/")

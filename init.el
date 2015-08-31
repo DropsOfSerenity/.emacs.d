@@ -95,6 +95,9 @@
      yaml-mode
      ag
      scss-mode
+     anaconda-mode
+     ac-anaconda
+     pyvenv
      )))
 
 (condition-case nil

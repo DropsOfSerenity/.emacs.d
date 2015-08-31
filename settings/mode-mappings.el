@@ -11,6 +11,7 @@
 (add-to-list 'auto-mode-alist '("\\.scss$" . scss-mode))
 (autoload 'turn-on-css-eldoc "css-eldoc")
 (add-hook 'css-mode-hook 'turn-on-css-eldoc)
+(add-hook 'scss-mode-hook 'rainbow-mode)
 
 ;; Restclient
 (add-to-list 'auto-mode-alist '("\\.restclient$" . restclient-mode))
@@ -52,6 +53,10 @@
 (add-to-list 'auto-mode-alist '("Vagrantfile" . ruby-mode))
 (add-to-list 'auto-mode-alist '("capfile" . ruby-mode))
 (add-to-list 'auto-mode-alist '("\\.erb$" . web-mode))
+
+;; Python
+(add-hook 'python-mode-hook 'anaconda-mode)
+(add-hook 'python-mode-hook 'ac-anaconda-setup)
 
 ;; Puppet
 (autoload 'puppet-mode "puppet-mode")
