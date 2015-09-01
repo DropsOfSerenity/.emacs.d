@@ -98,6 +98,7 @@
      anaconda-mode
      ac-anaconda
      pyvenv
+     handlebars-mode
      )))
 
 (condition-case nil
