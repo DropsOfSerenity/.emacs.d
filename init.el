@@ -99,6 +99,7 @@
      ac-anaconda
      pyvenv
      handlebars-mode
+     spacegray-theme
      )))
 
 (condition-case nil
