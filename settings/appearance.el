@@ -8,7 +8,7 @@
 
 ;; set custom theme dir
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
-(load-theme 'spacegray t)
+(load-theme 'monokai t)
 
 ;; Don't defer screen updates when performing operations
 (setq redisplay-dont-pause t)

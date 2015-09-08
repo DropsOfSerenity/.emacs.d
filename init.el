@@ -100,6 +100,7 @@
      pyvenv
      handlebars-mode
      spacegray-theme
+     rspec-mode
      )))
 
 (condition-case nil

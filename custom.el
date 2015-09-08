@@ -11,7 +11,8 @@
  '(package-archives
    (quote
     (("gnu" . "http://elpa.gnu.org/packages/")
-     ("" . "http://marmalade-repo.org/packages/")))))
+     ("" . "http://marmalade-repo.org/packages/"))))
+ '(rspec-command-options ""))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
