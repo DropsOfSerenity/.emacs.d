@@ -22,3 +22,5 @@ places
 projectile-bookmarks.eld
 recentf
 eshell/*
+anaconda-mode/
+ac-comphist.dat

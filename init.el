@@ -33,6 +33,8 @@
   (when (file-directory-p project)
     (add-to-list 'load-path project)))
 
+(setq ring-bell-function 'ignore)
+
 ;; Write backup files to own directory
 (setq backup-directory-alist
       `(("." . ,(expand-file-name
@@ -41,11 +43,14 @@
 ;; Make backups of files, even when they're in version control
 (setq vc-make-backup-files t)
 
+(setq is-mac (equal system-type 'darwin))
+
 (require 'setup-package)
 
 (defun init--install-packages ()
   (packages-install
    '(magit
+     dash
      move-text
      htmlize
      visual-regexp
@@ -85,6 +90,7 @@
      projectile-rails
      prodigy
      cider
+     clj-refactor
      rhtml-mode
      yesql-ghosts
      string-edit
@@ -103,6 +109,7 @@
      rspec-mode
      )))
 
+
 (condition-case nil
     (init--install-packages)
   (error
@@ -110,6 +117,11 @@
    (init--install-packages)))
 
 (require 'sane-defaults)
+
+;; Setup environment variables from the user's shell.
+(when is-mac
+  (require-package 'exec-path-from-shell)
+  (exec-path-from-shell-initialize))
 
 ;; Global whitespace cleanup mode please.
 (global-whitespace-cleanup-mode)
@@ -152,7 +164,7 @@
 (global-set-key (kbd "C-x M-m") 'prodigy)
 
 ;; Font lock dash.el
-(eval-after-load "dash" '(dash-enable-font-lock))
+; (eval-after-load "dash" '(dash-enable-font-lock))
 
 ;; Default setup of smartparens
 (require 'smartparens-config)
@@ -172,6 +184,16 @@
 (eval-after-load 'ruby-mode '(require 'setup-ruby-mode))
 (eval-after-load 'clojure-mode '(require 'setup-clojure-mode))
 (eval-after-load 'markdown-mode '(require 'setup-markdown-mode))
+
+(require 'clj-refactor)
+
+(defun my-clojure-mode-hook ()
+  (clj-refactor-mode 1)
+  (yas-minor-mode 1) ; for adding require/use/import
+  (cljr-add-keybindings-with-prefix "C-c C-m"))
+
+(add-hook 'clojure-mode-hook #'my-clojure-mode-hook)
+
 
 (autoload 'auto-complete-mode "auto-complete" nil t)
 (eval-after-load 'flycheck '(require 'setup-flycheck))
@@ -220,6 +242,9 @@
 (require 'key-bindings)
 
 (require 'setup-projects)
+
+
+(when is-mac (require 'mac))
 
 ;; Emacs server
 (require 'server)

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: fk
+# key: fk
+# --
+${1:varname} = models.ForeignKey(${1:$(split-string yas-text "_")})
