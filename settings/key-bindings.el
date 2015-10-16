@@ -42,10 +42,10 @@
 
 ;; Transpose stuff with M-t
 (global-unset-key (kbd "M-t"))
-(global-set-key (kbd "M-t l") 'transpose-lines)
-(global-set-key (kbd "M-t w") 'transpose-words)
-(global-set-key (kbd "M-t s") 'transpose-sexps)
-(global-set-key (kbd "M-t p") 'transpose-params)
+;; (global-set-key (kbd "M-t l") 'transpose-lines)
+;; (global-set-key (kbd "M-t w") 'transpose-words)
+;; (global-set-key (kbd "M-t s") 'transpose-sexps)
+;; (global-set-key (kbd "M-t p") 'transpose-params)
 
 ;; Interactive selective display
 (global-set-key (kbd "C-x $") 'inc-selective-display)
@@ -138,10 +138,10 @@
 (global-set-key (kbd "C-c C-k") 'eval-buffer)
 
 ;; Move windows, even in org-mode
-(global-set-key (kbd "<s-right>") 'windmove-right)
-(global-set-key (kbd "<s-left>") 'windmove-left)
-(global-set-key (kbd "<s-up>") 'windmove-up)
-(global-set-key (kbd "<s-down>") 'windmove-down)
+;; (global-set-key (kbd "<s-right>") 'windmove-right)
+;; (global-set-key (kbd "<s-left>") 'windmove-left)
+;; (global-set-key (kbd "<s-up>") 'windmove-up)
+;; (global-set-key (kbd "<s-down>") 'windmove-down)
 
 ;; Magit
 (global-set-key (kbd "C-x m") 'magit-status-fullscreen)
@@ -157,8 +157,8 @@
 (global-set-key (kbd "C-c d") 'duplicate-current-line-or-region)
 
 ;; Line movement
-(global-set-key (kbd "<C-S-down>") 'move-text-down)
-(global-set-key (kbd "<C-S-up>") 'move-text-up)
+                                        ; (global-set-key (kbd "<C-N>") 'move-text-down)
+                                        ; (global-set-key (kbd "<C-P>") 'move-text-up)
 
 ;; Sorting
 (global-set-key (kbd "M-s l") 'sort-lines)
@@ -167,6 +167,6 @@
 (global-set-key (kbd "C-c o") 'occur)
 
 ;; Find file in project
-(global-set-key (kbd "C-x o") 'find-file-in-project)
+(global-set-key (kbd "M-t") 'find-file-in-project)
 
 (provide 'key-bindings)

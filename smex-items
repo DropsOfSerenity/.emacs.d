@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- yas-reload-all
  join-line
- cider-jack-in
- clojure-mode
- html-mode
+ paredit-raise-sexp
+ paredit-backward-delete
  paredit-kill
- cljr-update-project-dependency
+ shrink-window
+ paredit-forward-slurp-sexp
+ clojure-mode
 )
 
 ;; ----- smex-data -----
@@ -25,10 +25,10 @@
  (inf-ruby-mode . 2)
  (inf-ruby . 2)
  (inf-ruby-minor-mode . 2)
- (join-line . 12)
+ (join-line . 29)
  (magit-log . 1)
  (magit-blame . 1)
- (paredit-raise-sexp . 1)
+ (paredit-raise-sexp . 2)
  (cider-jack-in . 3)
  (eval-buffer . 1)
  (package-list-packages . 1)
@@ -36,7 +36,7 @@
  (package-install . 1)
  (cljr-add-stubs . 2)
  (sp-forward-slurp-sexp . 1)
- (paredit-forward-slurp-sexp . 1)
+ (paredit-forward-slurp-sexp . 2)
  (paredit-backward-slurp-sexp . 1)
  (delete-file . 1)
  (cljr-add-missing-libspec . 2)
@@ -45,6 +45,8 @@
  (html-mode . 2)
  (cider-refresh . 2)
  (cljr-update-project-dependency . 6)
- (paredit-kill . 1)
- (clojure-mode . 1)
+ (paredit-kill . 2)
+ (clojure-mode . 2)
+ (shrink-window . 1)
+ (paredit-backward-delete . 1)
 )
