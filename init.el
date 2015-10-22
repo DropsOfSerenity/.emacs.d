@@ -47,64 +47,66 @@
 
 (defun init--install-packages ()
   (packages-install
-   '(magit
-     dash
-     move-text
-     htmlize
-     visual-regexp
-     markdown-mode
-     eproject
-     fill-column-indicator
-     flycheck
-     flycheck-pos-tip
-     flycheck-clojure
-     flx
-     smex
-     f
-     flx-ido
-     expand-region
-     paredit
-     dired-details
-     css-eldoc
-     yasnippet
-     jump-char
-     smartparens
-     smart-forward
-     ido-vertical-mode
-     ido-at-point
-     simple-httpd
-     guide-key
-     nodejs-repl
-     restclient
-     highlight-escape-sequences
-     rbenv
-     whitespace-cleanup-mode
-     elisp-slime-nav
-     dockerfile-mode
-     clojure-mode
-     clojure-mode-extra-font-locking
-     groovy-mode
-     projectile
-     projectile-rails
-     prodigy
+   '(ac-anaconda
+     ag
+     anaconda-mode
      cider
      clj-refactor
-     rhtml-mode
-     yesql-ghosts
-     string-edit
-     multiple-cursors
+     clojure-mode
+     clojure-mode-extra-font-locking
+     css-eldoc
+     dash
+     dired-details
+     dockerfile-mode
+     elisp-slime-nav
+     emmet-mode
+     eproject
+     expand-region
+     f
+     fill-column-indicator
+     flx
+     flx-ido
+     flycheck
+     flycheck-clojure
+     flycheck-pos-tip
+     groovy-mode
+     guide-key
+     handlebars-mode
+     highlight-escape-sequences
+     htmlize
+     ido-at-point
+     ido-vertical-mode
      js2-mode
      js2-refactor
-     web-mode
-     yaml-mode
-     ag
-     scss-mode
-     anaconda-mode
-     ac-anaconda
+     jump-char
+     magit
+     markdown-mode
+     move-text
+     multiple-cursors
+     nodejs-repl
+     paredit
+     pony-mode
+     prodigy
+     projectile
+     projectile-rails
      pyvenv
-     handlebars-mode
-     spacegray-theme
+     rbenv
+     restclient
+     rhtml-mode
      rspec-mode
+     scss-mode
+     simple-httpd
+     smart-forward
+     smartparens
+     smex
+     spacegray-theme
+     string-edit
+     visual-regexp
+     web-mode
+     whitespace-cleanup-mode
+     yaml-mode
+     yasnippet
+     yesql-ghosts
      )))
 
 
@@ -154,6 +156,7 @@
 (require 'setup-paredit)
 (require 'setup-web-mode)
 (require 'setup-python-mode)
+(require 'setup-pony-mode)
 (require 'rbenv)
 (global-rbenv-mode)
 (projectile-global-mode)
@@ -163,7 +166,7 @@
 (global-set-key (kbd "C-x M-m") 'prodigy)
 
 ;; Font lock dash.el
-; (eval-after-load "dash" '(dash-enable-font-lock))
+                                        ; (eval-after-load "dash" '(dash-enable-font-lock))
 
 ;; Default setup of smartparens
 (require 'smartparens-config)

@@ -12,7 +12,15 @@
    (quote
     (("gnu" . "http://elpa.gnu.org/packages/")
      ("" . "http://marmalade-repo.org/packages/"))))
- '(rspec-command-options ""))
+ '(rspec-command-options "")
+ '(safe-local-variable-values
+   (quote
+    ((pony-settings
+      (make-pony-project :python "~/.virtualenvs/socialrebate/bin/python"))
+     (pony-settings make-pony-project :python "~/.virtualenvs/socialrebate/bin/python")
+     (pony-settings make-pony-project :python "~/.virtualenvs/socialrebate/bin/python" :pythonpath "~/src/django/socialrebate/webapps/socialrebate")
+     (pony-settings make-pony-project :python "/home/jschiff/.virtualenvs/socialrebate/bin/python" :pythonpath "/home/jschiff/src/django/socialrebate/webapps/socialrebate" :settings "socialrebate.settings")
+     (pony-settings make-pony-project :python "/home/jschiff/virtualenvs/socialrebate/bin/python" :pythonpath "/home/jschiff/src/django/socialrebate/webapps/socialrebate" :settings "socialrebate.settings")))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
