@@ -16,6 +16,24 @@
  '(safe-local-variable-values
    (quote
     ((pony-settings
+      (make-pony-project :python "/Users/jschiff/.virtualenvs/socialrebate/bin/python" :settings "socialrebate.settings"))
+     (pony-settings
+      (make-pony-project :python "/Users/jschiff/.virtualenvs/socialrebate/bin/python" :pythonpath "/Users/jschiff/src/django/socialrebate/webapps/socialrebate/socialrebate" :settings "socialrebate.settings"))
+     (pony-settings
+      (make-pony-project :python "/Users/jschiff/.virtualenvs/socialrebate/bin/python" :pythonpath "/Users/jschiff/src/django/socialrebate/webapps/socialrebate/socialrebate" :settings "settings"))
+     (pony-settings
+      (make-pony-project :python "/Users/jschiff/.virtualenvs/socialrebate/bin/python" :pythonpath "/Users/jschiff/src/django/socialrebate/webapps/socialrebate" :settings "socialrebate.socialrebate.settings"))
+     (pony-settings
+      (make-pony-project :python "/Users/jschiff/.virtualenvs/socialrebate/bin/python" :pythonpath "/Users/jschiff/src/django/socialrebate/webapps/socialrebate" :settings "socialrebate/settings"))
+     (pony-settings
+      (make-pony-project :python "/Users/jschiff/.virtualenvs/socialrebate/bin/python" :pythonpath "/Users/jschiff/src/django/socialrebate/webapps/socialrebate" :settings "settings"))
+     (pony-settings
+      (make-pony-project :python "/Users/jschiff/.virtualenvs/socialrebate/bin/python" :pythonpath "/Users/jschiff/src/django/socialrebate/webapps/socialrebate" :settings "socialrebate.settings"))
+     (pony-settings
+      (make-pony-project :python "/Users/jschiff/.virtualenvs/socialrebate/bin/python"))
+     (pony-settings
+      (make-pony-project :python "/home/jschiff/.virtualenvs/socialrebate/bin/python"))
+     (pony-settings
       (make-pony-project :python "~/.virtualenvs/socialrebate/bin/python"))
      (pony-settings make-pony-project :python "~/.virtualenvs/socialrebate/bin/python")
      (pony-settings make-pony-project :python "~/.virtualenvs/socialrebate/bin/python" :pythonpath "~/src/django/socialrebate/webapps/socialrebate")

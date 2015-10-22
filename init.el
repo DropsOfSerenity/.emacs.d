@@ -85,7 +85,6 @@
      multiple-cursors
      nodejs-repl
      paredit
-     pony-mode
      prodigy
      projectile
      projectile-rails

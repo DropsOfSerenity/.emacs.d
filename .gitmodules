@@ -28,3 +28,6 @@
 [submodule "site-lisp/crappy-jsp-mode"]
 	path = site-lisp/crappy-jsp-mode
 	url = git@github.com:magnars/crappy-jsp-mode.git
+[submodule "site-lisp/pony-mode"]
+	path = site-lisp/pony-mode
+	url = git@github.com:davidmiller/pony-mode.git
