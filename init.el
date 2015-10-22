@@ -21,8 +21,6 @@
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 (load custom-file)
 
-(require 'appearance)
-
 ;; Settings for currently logged in user
 (setq user-settings-dir
       (concat user-emacs-directory "users/" user-login-name))
@@ -116,6 +114,7 @@
    (package-refresh-contents)
    (init--install-packages)))
 
+(require 'appearance)
 (require 'sane-defaults)
 
 ;; Setup environment variables from the user's shell.
