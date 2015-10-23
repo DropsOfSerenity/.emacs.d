@@ -8,7 +8,7 @@
 
 ;; set custom theme dir
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
-(load-theme 'solarized-light t)
+(load-theme 'solarized-dark t)
 
 ;; Don't defer screen updates when performing operations
 (setq redisplay-dont-pause t)
